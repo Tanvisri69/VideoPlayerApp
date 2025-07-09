@@ -1,29 +1,30 @@
-# Video Player App (In Progress)
+# Weather App (In Progress)
 
-This is a video playback app built using **Kotlin**, **Media3 Library**, **MVVM architecture**, and **Dagger Hilt**. The app plays local video files with media controls in a clean and responsive UI.
+Welcome to my Android Weather App project! This application is designed to provide users with real-time weather updates by integrating with a reliable weather API. Built using **Kotlin**, **Jetpack Compose**, **Retrofit**, and **MVVM architecture**, it also includes **location services** to auto-detect user location for accurate forecasts.
 
-> 🚧 **Note:** The project is under development. Source code and features will be updated shortly.
+> 🚧 This project is currently under development. Code and documentation will be added shortly.
 
 ---
 
-## 🎥 Features (Planned)
-- Local video file playback
-- Playback controls (Play, Pause, Seek)
-- Runtime permission handling
-- Jetpack Compose UI
-- MVVM architecture
-- Dependency injection with Dagger Hilt
+## ☁️ Features (Planned)
+- Fetch real-time weather data using a REST API (e.g., OpenWeatherMap)
+- Auto-detect location using location services (FusedLocationProvider)
+- Search weather by city name
+- Display current temperature, condition, humidity, wind speed, etc.
+- Jetpack Compose-based clean UI
+- MVVM architecture with separation of concerns
+- Retrofit for networking and Gson for JSON parsing
 
 ---
 
 ## 🛠️ Tech Stack
 - **Language:** Kotlin
-- **Media:** Android Media3
 - **UI:** Jetpack Compose
 - **Architecture:** MVVM
-- **Dependency Injection:** Dagger Hilt
+- **Networking:** Retrofit, Gson
+- **Location:** FusedLocationProvider
 - **IDE:** Android Studio
 
 ---
 
-## 📂 Folder Structure (Coming Soon)
+## 📂 Project Structure (Coming Soon)
